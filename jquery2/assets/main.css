@@ -1,0 +1,149 @@
+
+body {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: rooney-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 72px;
+}
+
+.body {
+  font-family: rooney-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+img {
+  max-width: 90vw;
+  max-height: 85vh;
+  display: block;
+}
+
+.img {
+  background-color: yellow;
+
+
+}
+
+.button {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: coral;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  background: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  border: none;
+  height: 70px;
+  width: 60px;
+  text-align: center;
+}
+
+.ampm {
+  font-family: rooney-sans, sans-serif;
+  background: white;
+  line-height: 70px;
+  border-radius: 10px;
+  font-size: 30px;
+  border: none;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+}
+
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 96vh;
+ width: 100%
+ background: blue;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.mr2 {
+  margin-right: 20px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.item {
+  max-width: 960px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.time-pick {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gainsboro;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+
+.box {
+  height: 45vw;
+  width: 80vw;
+  font-family: rooney-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}

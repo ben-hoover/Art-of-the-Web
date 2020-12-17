@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>0%</title>
+      <link rel="stylesheet" href="https://use.typekit.net/qux3qqs.css">
+      <link rel="stylesheet" type="text/css" href="assets/main.css">
+      <script src="assets/jquery-3.5.1.min.js"></script>
+      <script type="text/javascript" src="assets/main.js"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com"> 
+   </head>
+   <body>
+
+      <div class="container">
+         <span class="title">Hello!</span>
+         <span class="body mb">When does your day or task start and end?</span>
+         <div class="time-pick mb">
+          <input class="mr" type="text" id="s_hour" name="fname" maxlength="2" placeholder="10">
+          <span class="body mr"> : </span>
+          <input class="mr" type="text" id="s_min" name="fname" maxlength="2" placeholder="00">
+          <span class="ampm mr2" id="start_ampm" class="ampm">AM</span>
+          <span class="body mr2">to</span>
+          <input class="mr" type="text" id="e_hour" name="fname" maxlength="2" placeholder="6">
+          <span class="body mr"> : </span>
+          <input class="mr" type="text" id="e_min" name="fname" maxlength="2" placeholder="00">
+          <span id="end_ampm" class="ampm">PM</span>
+        </div>
+        <div class="button body">Let's Go!</div>
+              </div>
+            <div class="center">
+<svg class="box hidden" id="animated" viewbox="0 0 400 120">
+    <path fill="none" stroke-linecap="round" stroke-width="25" stroke="#fff"
+        d="M 25 150 A 175 175 0 0 1 375 150">
+  </path>
+  <path class="ticker" fill="none" stroke-linecap="round" stroke-width="20" stroke="#FFD700" stroke-dasharray="628.318,628.318" stroke-dashoffset="628.318" 
+        d="M 25 150 A 175 175 0 0 1 375 150">
+  </path>
+  <text class="percent" x="200" y="120" text-anchor="middle" dy="7">100%</text>
+</svg>
+</div>
+
+   </body>
+</html>

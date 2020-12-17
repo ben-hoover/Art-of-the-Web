@@ -1,0 +1,139 @@
+
+body {
+  background-color: #B54E4E;
+  margin: 0px;
+}
+
+
+.header {
+  background-color: #B54E4E;
+  height: 220px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title-text {
+  padding: 30px;
+  font-size: 48px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #292929;
+  color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  min-width: 274px;
+}
+
+.name {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 48px;
+  color: white;
+  padding: 40px;
+}
+
+.section-header {
+  background-color: #2A3C7A;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 40px;
+}
+
+@media(max-width: 859px) {
+   .section-header {
+      text-align: center;
+   }
+}
+
+@media(min-width: 860px) {
+  .section-header {
+    margin-left: 60px;
+    align-self: flex-start;
+  }
+}
+
+@media(max-width: 731px) {
+   .header {
+      height: 300px;
+      padding-top: 40px;
+   }
+}
+
+.body-text {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: black;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #93B5D4;
+}
+
+.spacer {
+  width: 300px;
+  height: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.container {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-tile {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+  margin: 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+}
+
+.project-tile:hover {
+  transform: scale(1.25);
+} 
+
+.activity-tile {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  margin: 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+  object-fit: fill;
+}
+
+.activity-tile:hover {
+  transform: scale(1.5); 
+}
+
+.mr {
+  margin-right: 5vw;
+}
