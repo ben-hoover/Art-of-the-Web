@@ -97,6 +97,13 @@ body {
   margin-right: 35px;
 }
 
+.spacer2 {
+  width: 200px;
+  height: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
 .container {
   margin-left: 60px;
   margin-right: 60px;
