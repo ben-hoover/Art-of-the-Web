@@ -12,7 +12,7 @@ body {
 }
 
 .darkorange {
-  background-color: #e09b10 !important;
+  background-color: #e06710 !important;
 }
 
 .green {
@@ -94,7 +94,7 @@ body {
 }
 
 .fill {
-  object-fit: fill;
+  object-fit: cover;
 }
 .floatingbox {
   position: absolute;
